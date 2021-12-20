@@ -1,0 +1,16 @@
+ERROR - 2021-12-13 18:28:05 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:28:05 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:28:07 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:28:07 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:29:34 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:29:34 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:30:11 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:30:11 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:31:02 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:31:02 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:31:38 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:31:38 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:32:06 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:32:06 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:38:44 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-13 18:38:44 --> 404 Page Not Found: Assets/vendors

@@ -1,0 +1,67 @@
+ERROR - 2021-12-14 09:33:17 --> Severity: Notice --> Undefined variable: header C:\xampp\htdocs\penggajian\application\views\layout\header.php 79
+ERROR - 2021-12-14 09:35:14 --> Severity: Notice --> Undefined variable: pegawai C:\xampp\htdocs\penggajian\application\views\content\admin\manajemenkepegawaian\content_manajemenkepegawaian.php 58
+ERROR - 2021-12-14 09:35:14 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\penggajian\application\views\content\admin\manajemenkepegawaian\content_manajemenkepegawaian.php 58
+ERROR - 2021-12-14 09:35:34 --> Severity: Notice --> Undefined variable: pegawai C:\xampp\htdocs\penggajian\application\views\content\admin\manajemenkepegawaian\content_manajemenkepegawaian.php 44
+ERROR - 2021-12-14 09:35:34 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\penggajian\application\views\content\admin\manajemenkepegawaian\content_manajemenkepegawaian.php 44
+ERROR - 2021-12-14 09:59:54 --> Severity: Notice --> Undefined property: CI_Loader::$mainlibrary C:\xampp\htdocs\penggajian\application\views\layout\header.php 9
+ERROR - 2021-12-14 09:59:54 --> Severity: error --> Exception: Call to a member function InitSettings() on null C:\xampp\htdocs\penggajian\application\views\layout\header.php 9
+ERROR - 2021-12-14 10:00:13 --> Severity: Notice --> Undefined property: Mainlibrary::$db C:\xampp\htdocs\penggajian\application\libraries\Mainlibrary.php 21
+ERROR - 2021-12-14 10:00:13 --> Severity: error --> Exception: Call to a member function get_where() on null C:\xampp\htdocs\penggajian\application\libraries\Mainlibrary.php 21
+ERROR - 2021-12-14 10:00:29 --> Severity: Notice --> Undefined property: Mainlibrary::$db C:\xampp\htdocs\penggajian\application\libraries\Mainlibrary.php 21
+ERROR - 2021-12-14 10:00:29 --> Severity: error --> Exception: Call to a member function get_where() on null C:\xampp\htdocs\penggajian\application\libraries\Mainlibrary.php 21
+ERROR - 2021-12-14 10:00:31 --> Severity: Notice --> Undefined property: Mainlibrary::$db C:\xampp\htdocs\penggajian\application\libraries\Mainlibrary.php 21
+ERROR - 2021-12-14 10:00:31 --> Severity: error --> Exception: Call to a member function get_where() on null C:\xampp\htdocs\penggajian\application\libraries\Mainlibrary.php 21
+ERROR - 2021-12-14 10:00:46 --> Query error: Table 'amikpgrikebumen.settings' doesn't exist - Invalid query: SELECT *
+FROM `settings`
+WHERE `id` = 1
+ERROR - 2021-12-14 10:04:31 --> Severity: Notice --> Undefined property: stdClass::$meta_keyowrds C:\xampp\htdocs\penggajian\application\views\layout\header.php 9
+ERROR - 2021-12-14 10:04:32 --> Severity: Notice --> Undefined property: stdClass::$meta_keyowrds C:\xampp\htdocs\penggajian\application\views\layout\header.php 9
+ERROR - 2021-12-14 10:13:01 --> 404 Page Not Found: admin/Manajemenkepegawaian/tambah
+ERROR - 2021-12-14 10:13:06 --> 404 Page Not Found: admin/Manajemenkepegawaian/tambahpegawai
+ERROR - 2021-12-14 11:32:11 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\penggajian\application\controllers\Test.php 21
+ERROR - 2021-12-14 11:33:43 --> Severity: error --> Exception: Cannot use object of type stdClass as array C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:33:58 --> Severity: error --> Exception: Object of class stdClass could not be converted to string C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:34:33 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 23
+ERROR - 2021-12-14 11:50:40 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 24
+ERROR - 2021-12-14 11:50:40 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\penggajian\application\controllers\Test.php 24
+ERROR - 2021-12-14 11:50:40 --> Query error: Duplicate entry '0' for key 'PRIMARY' - Invalid query: INSERT INTO `provinsi` (`nama_provinsi`) VALUES (NULL)
+ERROR - 2021-12-14 11:50:48 --> Query error: Duplicate entry '0' for key 'PRIMARY' - Invalid query: INSERT INTO `provinsi` (`nama_provinsi`) VALUES ('KAB. TAPANULI TENGAH')
+ERROR - 2021-12-14 12:23:08 --> Severity: Warning --> file_get_contents(./vendor/data-indonesia/kabupaten/83.json): failed to open stream: No such file or directory C:\xampp\htdocs\penggajian\application\controllers\Test.php 18
+ERROR - 2021-12-14 12:23:08 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\penggajian\application\controllers\Test.php 22
+ERROR - 2021-12-14 23:06:19 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-14 23:06:19 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-14 23:06:49 --> 404 Page Not Found: Assets/vendors
+ERROR - 2021-12-14 23:07:16 --> 404 Page Not Found: Assets/vendors

@@ -1,0 +1,9 @@
+ERROR - 2021-12-20 21:38:19 --> Query error: Table 'amikpgrikebumen.penggajian_gaji_pegawai' doesn't exist - Invalid query: INSERT INTO `penggajian_gaji_pegawai` (`id_pegawai`, `gaji_pokok`, `masa_kerja`, `tunjangan`, `transport`, `lembur`, `tabungan_pensiun`, `bpjs_ketenagakerjaan`, `bpjs_kesehatan`, `potongan`, `bulan_gaji`, `tahun_gaji`, `status_publish`, `date_created`) VALUES ('2', '8000', '8000', '8000', '8000', '8000', '8000', '8000', '8000', '8000', '1', '1', 'Publish', '20-12-2021 21:38:19')
+ERROR - 2021-12-20 21:39:05 --> Severity: Notice --> Undefined index: tanggal_gaji C:\xampp\htdocs\penggajian\application\views\content\admin\manajemengaji\content_manajemengaji.php 27
+ERROR - 2021-12-20 21:39:05 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\penggajian\application\libraries\Mainlibrary.php 99
+ERROR - 2021-12-20 21:39:05 --> Severity: Notice --> Undefined offset: 2 C:\xampp\htdocs\penggajian\application\libraries\Mainlibrary.php 100
+ERROR - 2021-12-20 21:54:42 --> Severity: error --> Exception: Object of class stdClass could not be converted to string C:\xampp\htdocs\penggajian\system\database\DB_query_builder.php 2442
+ERROR - 2021-12-20 21:54:51 --> Severity: error --> Exception: Object of class stdClass could not be converted to string C:\xampp\htdocs\penggajian\system\database\DB_query_builder.php 2442
+ERROR - 2021-12-20 22:37:17 --> 404 Page Not Found: admin/Manajemenkepegawaian/editgaji
+ERROR - 2021-12-20 23:42:44 --> 404 Page Not Found: admin/Manajemenkepegawaian/do_deletegajipegawai
+ERROR - 2021-12-20 23:42:52 --> 404 Page Not Found: admin/Manajemenkepegawaian/do_deletegajipegawai
