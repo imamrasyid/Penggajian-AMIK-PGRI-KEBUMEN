@@ -3,7 +3,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
             <div class="card">
                 <div class="card-body text-center">
-                    <a href="<?php echo base_url('admin/manajemengaji/tambahgaji') ?>" class="btn btn-outline-primary"><i class="fas fa-plus mr-2"></i>Tambah Data Gaji</a>
+                    <a href="<?php echo base_url('admin/manajemengaji/tambahgaji') ?>" class="btn btn-outline-primary">Tambah Data Gaji</a>
                     <input type="button" id="showmodal_laporangajipegawai" class="btn btn-outline-success" value="Lihat Laporan Gaji" onclick="ShowModalLaporan()">
                 </div>
                 <div id="modal_laporangajipegawai" class="card-body text-center" style="display: none">
