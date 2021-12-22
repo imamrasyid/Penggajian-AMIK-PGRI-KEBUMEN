@@ -9,7 +9,7 @@
         </div>
     </div>
 </header>
-<div class="container mt-n10">
+<div class="container-fluid mt-n10">
     <div class="row">
         <div class="col-xxl-4 col-xl-12 mb-4">
             <div class="card h-100">

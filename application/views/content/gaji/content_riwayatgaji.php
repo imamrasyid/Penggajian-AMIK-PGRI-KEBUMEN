@@ -1,7 +1,8 @@
-<div class="container mt-3">
+<div class="container-fluid mt-3">
     <div class="row">
         <div class="col-lg-12 col-12">
             <div class="card">
+                <div class="card-header">Table Riwayat Gaji</div>
                 <div class="card-body">
                     <table id="table_id" class="table table-borderless table-hover text-center">
                         <thead>

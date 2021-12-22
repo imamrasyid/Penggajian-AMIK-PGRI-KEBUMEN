@@ -1,7 +1,8 @@
-<div class="container mt-3">
+<div class="container-fluid mt-3">
     <div class="row">
         <div class="col-lg-12 col-12">
-            <div class="card" style="border: 1px solid blue;">
+            <div class="card">
+                <div class="card-header">Detail Penghitungan Gaji</div>
                 <div class="card-body">
                     <table class="table table-bordered table-responsive-lg table-responsive-md table-responsive-sm text-center">
                         <thead class="bg-primary-soft">

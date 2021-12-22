@@ -65,7 +65,7 @@ class Login_model extends CI_Model
                     {
                         $sessionData = array(
                             'nip' => $query->nip,
-                            'nama' => $query->nama_pegawai,
+                            'nama' => $query->gelar_depan.' '.$query->nama_pegawai.' '.$query->gelar_belakang,
                             'level_akses' => 'Pegawai'
                         );
 

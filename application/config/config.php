@@ -78,7 +78,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= 'indonesian';
 
 /*
 |--------------------------------------------------------------------------
@@ -273,7 +273,7 @@ $config['log_file_permissions'] = 0644;
 | codes to set your own date formatting
 |
 */
-$config['log_date_format'] = 'Y-m-d H:i:s';
+$config['log_date_format'] = 'd-m-Y H:i:s';
 
 /*
 |--------------------------------------------------------------------------
@@ -326,7 +326,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'amikpgri_penggajian';
+$config['encryption_key'] = 'amikpgri_sisteminformasipenggajianpegawai_2021';
 
 /*
 |--------------------------------------------------------------------------
@@ -380,7 +380,7 @@ $config['encryption_key'] = 'amikpgri_penggajian';
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'encrypt_session';
+$config['sess_cookie_name'] = 'AMIKPGRI_SESSION_COOKIE';
 $config['sess_expiration'] = 1800;
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
@@ -451,8 +451,8 @@ $config['global_xss_filtering'] = FALSE;
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
 $config['csrf_protection'] = TRUE;
-$config['csrf_token_name'] = 'penggajian_protection_01';
-$config['csrf_cookie_name'] = 'penggajian_protection_02';
+$config['csrf_token_name'] = 'AMIKPGRI_CSRF_PROTECT';
+$config['csrf_cookie_name'] = 'AMIKPGRI_COOKIE_PROTECT';
 $config['csrf_expire'] = 1800;
 $config['csrf_regenerate'] = TRUE;
 $config['csrf_exclude_uris'] = array();

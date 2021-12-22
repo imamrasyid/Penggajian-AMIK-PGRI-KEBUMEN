@@ -36,11 +36,13 @@ class Protection
     {
         if (empty($this->ci->session->userdata('nip')))
         {
-            redirect(base_url('login'), 'refresh');
+            $this->ci->output->set_status_header('404');
+            $this->ci->load->view('content/errors/content_404');
         }
         if ($this->ci->session->userdata('level_akses') != "Admin")
         {
-            redirect(base_url('home'), 'refresh');
+            $this->ci->output->set_status_header('404');
+            $this->ci->load->view('content/errors/content_404');
         }
     }
 }

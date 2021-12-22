@@ -44,13 +44,6 @@ Class Manajemengaji extends CI_Controller
 
     function cetak_gaji()
     {
-        // if (empty($this->input->get('idx', true))) redirect(base_url('admin/manajemengaji'));
-        // else
-        // {
-        //     $data['title'] = 'Cetak Gaji';
-        //     $data['gaji'] = $this->gaji->GetDetailGajiPegawai($this->input->get('idx', true));
-        //     $this->load->view('content/admin/manajemengaji/content_cetakgaji', $data, FALSE);
-        // }
         redirect(base_url('admin/manajemengaji'), 'refresh');
     }
 

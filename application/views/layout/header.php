@@ -47,8 +47,7 @@
                 <div class="sidenav-menu">
                     <div class="nav accordion" id="accordionSidenav">
                         <div class="sidenav-menu-heading">Menu Utama</div>
-                        <a class="nav-link" href="<?php echo base_url('home') ?>"><i class="fa fa-home mr-2"></i>Home</a>
-                        <a class="nav-link" href="<?php echo base_url('gaji/penghitungan_gaji') ?>"><i class="fa fa-list mr-2"></i>Penghitungan Gaji</a>
+                        <a class="nav-link <?php if ($this->uri->segment(1) == '' || $this->uri->segment(1) == 'home'){echo 'active';} ?>" href="<?php echo base_url('home') ?>"><i class="fa fa-home mr-2"></i>Home</a>
                         <?php if ($this->session->userdata('level_akses') != "Admin") : ?>
                             <a class="nav-link" href="<?php echo base_url('gaji/penghitungan_gaji') ?>"><i class="fa fa-list mr-2"></i>Penghitungan Gaji</a>
                             <a class="nav-link <?php if ($this->uri->segment(2) == 'gaji'){ echo 'active'; } ?>" href="<?php echo base_url('gaji/riwayat_gaji') ?>"><i class="fa fa-history mr-2"></i>Riwayat</a>
@@ -58,6 +57,9 @@
                             <a class="nav-link <?php if ($this->uri->segment(2) == 'manajemenkepegawaian'){ echo 'active'; } ?>" href="<?php echo base_url('admin/manajemenkepegawaian') ?>"><i class="fa fa-users mr-2"></i>Manajemen Pegawai</a>
                             <a class="nav-link <?php if ($this->uri->segment(2) == 'manajemengaji'){ echo 'active'; } ?>" href="<?php echo base_url('admin/manajemengaji') ?>"><i class="fa fa-briefcase mr-2"></i>Manajemen Gaji</a>
                         <?php endif; ?>
+                        <div class="sidenav-menu-heading">Menu Umpan Balik</div>
+                        <a href="<?php echo base_url('umpanbalik') ?>" class="nav-link"><i class="fa fa-list mr-2"></i>Umpan Balik Anda</a>
+                        <a href="<?php echo base_url('umpanbalik/buat_umpanbalik') ?>" class="nav-link"><i class="fa fa-comments mr-2"></i>Kirim Umpan Balik</a>
                 </div>
                 <div class="sidenav-footer fixed-bottom">
                     <div class="sidenav-footer-content">
