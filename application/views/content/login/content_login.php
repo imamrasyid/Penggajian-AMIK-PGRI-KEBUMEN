@@ -21,8 +21,8 @@
         <!-- [END] Jquery -->
         
         <!-- [START] SweetAlert2 -->
-        <link rel="stylesheet" href="<?php echo base_url() ?>node_modules/sweetalert2/dist/sweetalert2.min.css">
-        <script src="<?php echo base_url() ?>node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/vendors/sweetalert2/dist/sweetalert2.min.css">
+        <script src="<?php echo base_url() ?>assets/vendors/sweetalert2/dist/sweetalert2.min.js"></script>
         <!-- [END] SweetAlert2 -->
         
         <!-- [START] Custom JS -->
@@ -47,11 +47,11 @@
                                             </div>
                                             <div class="form-group">
                                                 <label class="small mb-1">NIP</label>
-                                                <input type="text" id="nip" name="nip" class="form-control" placeholder="Masukkan NIP Anda" autofocus>
+                                                <input type="text" id="nip" name="nip" class="form-control" placeholder="Masukkan NIP Anda" autofocus required>
                                             </div>
                                             <div class="form-group">
                                                 <label class="small mb-1">Password</label>
-                                                <input type="password" id="password" name="password" class="form-control" placeholder="Masukkan Password Anda">
+                                                <input type="password" id="password" name="password" class="form-control" placeholder="Masukkan Password Anda" required>
                                             </div>
                                             <div class="form-group">
                                                 <label class="small mb-1">Masuk Sebagai</label>

@@ -11,8 +11,8 @@
     <link href="<?php echo base_url() ?>assets/css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/vendors/datatables/datatables.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/custom.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>node_modules/sweetalert2/dist/sweetalert2.min.css">
-    <script src="<?php echo base_url() ?>node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/vendors/sweetalert2/dist/sweetalert2.min.css">
+    <script src="<?php echo base_url() ?>assets/vendors/sweetalert2/dist/sweetalert2.min.js"></script>
     <script src="<?php echo base_url() ?>assets/vendors/jquery/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>assets/js/custom.js"></script>
     <script data-search-pseudo-elements defer src="<?php echo base_url() ?>assets/vendors/cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
