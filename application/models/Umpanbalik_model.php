@@ -15,6 +15,11 @@ class Umpanbalik_model extends CI_Model
         $this->load->library('upload');
     }
 
+    function GetSemuaUmpanBalikPegawai()
+    {
+        return $this->db->get_where('penggajian_umpanbalik', array('id_pegawai' => $this->GetDataPegawai()->id))->result_array();
+    }
+
     function GetDataPegawai()
     {
         $query = $this->db->get_where('pegawai', array('nip' => $this->session->userdata('nip')))->row();

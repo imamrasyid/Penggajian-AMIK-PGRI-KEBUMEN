@@ -17,7 +17,9 @@ Class Umpanbalik extends CI_Controller
 
     function index()
     {
-
+        $data['title'] = 'Umpan Balik Anda';
+        $data['content'] = 'content/umpanbalik/content_umpanbalik';
+        $this->load->view('layout/wrapper', $data, FALSE);
     }
 
     function buat_umpanbalik()
